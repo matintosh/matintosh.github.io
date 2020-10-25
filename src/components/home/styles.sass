@@ -1,0 +1,107 @@
+.home
+    overflow: hidden
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    background-color: #fafafa
+
+#pinContainer
+    height: 100vh
+    width: 100vw
+    overflow: hidden
+
+.panel
+    height: 100vh
+    width: 100vw
+    display: flex
+    position: absolute
+    justify-content: center
+    align-items: center
+
+.panel span
+    position: relative
+    display: block
+    top: 50%
+    font-size: 80px
+    color: #fafafa
+
+.panel.blue
+    background-color: #3883d8
+
+.panel.turqoise
+    background-color: #38ced7
+
+.panel.green
+    background-color: #22d659
+
+.panel.bordeaux
+    background-color: #953543
+.panel.black
+    background-color: #000
+    h1
+        color: white
+
+.section
+    height: 110vh
+
+.parallax
+    height: 500px
+    position: relative
+    overflow: hidden
+    img
+        width: 100%
+        height: auto
+        position: absolute
+
+    h2
+        position: absolute
+        left: 200px
+        text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3)
+
+.zoom
+    width: 100vw
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: row
+
+    .avatar
+        position: absolute
+        width: 20vw
+
+.content
+    height: 200vh
+    width: 100vw
+    background-color: #3883d8
+
+.contact
+    display: flex
+    flex-direction: column
+    h1, p
+        margin: 0px
+        color: black
+
+    p
+        color: #3883d8
+
+.technologies
+    height: 100vh
+    width: 100vw
+    display: flex
+    position: absolute
+    justify-content: center
+    align-items: center
+
+@keyframes flying
+    0%
+        top: 0px
+    50%
+        top: 3px
+    100%
+        top: 0
+
+.link
+    position: relative
+    color: #3883d8
+    text-align: center
+    animation: flying 2s infinite
+    cursor: pointer
